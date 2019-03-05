@@ -1,0 +1,12 @@
+MyQLabel {
+background-image: url(:/images/resources/images/start.png);
+}
+MyQLabel:hover{
+    background-image: url(:/images/resources/images/hover.png);
+}
+/*QLabel没有pressed属性
+MyQLabel:pressed{
+    border-image: url(:/images/resources/images/press.png);
+}
+#objectname是自己设置的，不是变量的名字。比如：startLabel.setObjectNmae("");
+*/
